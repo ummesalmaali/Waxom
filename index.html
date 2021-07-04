@@ -16,10 +16,13 @@
     <!--  font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <!-- <link rel="stylesheet" href="vendors/css/normalize.css"> -->
     <link rel="stylesheet" href="vendors//css/grid.css">
 
-    <!-- Resources our own css files -->
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Resources own css files -->
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/responsive.css">
 
@@ -27,81 +30,182 @@
 </head>
 
 <body>
-<header id="home">
-    <nav>
+    <header id="home">
+        <nav>
+            <div class="row">
+                <a href="#home"> <img src="resources/img/1.jpg.png" alt="Waxom" class="logo">
+                </a>
+                <ul class="main-nav">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#shortcodes">Shortcodes</a></li>
+                    <li><a href="#codes">Contacts</a></li>
+                    <li><a href="#">
+                            <class class="fas fa-calendar-week"></class></i>
+                        </a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="row">
-            <a href="#home"> <img src="resources/img/1.jpg.png" alt="Waxom" class="logo">
-            </a>
-            <ul class="main-nav">
-                <li><a href="#home">Home</a></li>
-                <li ><a href="#aboutus">About us</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#shortcodes">Shortcodes</a></li>
-                <li><a href="#codes">Contacts</a></li>
-                <li><a href="#"><class class="fas fa-calendar-week"></class></i></a></li>
-                <li><a href="#"><i class="fas fa-search"></i></a></li>
-            </ul>
+            <div class="hero-text-box">
+                <h2>Unique and Modern Design</h2>
+                <h1>Portfolio PSD Template</h1>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, placeat aperiam. Deleniti
+                    vitae quidem, ipsum delectus reiciendis accusantium laudantium cumque?</p>
+                <a href="#contact" class="btn btn-hero">GET STARTED</a>
+            </div>
         </div>
-    </nav>
-    <div class="row">
-        <div class="hero-text-box">
-            <h2>Unique and Modern Design</h2>
-            <h1>Portfolio PSD Template</h1>
-            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, placeat aperiam. Deleniti vitae quidem, ipsum delectus reiciendis accusantium laudantium cumque?</p>
-            <a href="#contact" class="btn btn-hero">GET STARTED</a>
-        </div>
-    </div>
 
-</header>
+    </header>
 
-<!-- */============/*
+    <!-- */============/*
 Service section starts here
 */============/* -->
 
-<section class="service-section" id="services">
-<div class="row">
-    <div class="col span_1_of_4 box">
-     <img src="resources/img/pen.png" alt="pencil-icon">
-     <h3>Web & App Design</h3>
-     <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+    <section id="services" class="service-section">
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/pen.png" alt="pencil-icon">
+                <h3>Web & App Design</h3>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/dev.png" alt="development-icon">
+                <h3>Web & App Design</h3>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/gears.png" alt="gear-icon">
+                <h3>Web & App Design</h3>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/mkt.png" alt="marketing-icon">
+                <h3>Web & App Design</h3>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </div>
+        </div>
+    </section>
+    <section id="idea" class="idea-section">
+        <div class="idea-heading">
+            <h2>Waxom is Realization of your Ideas.</h2>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        </div>
+
+
+        <div class="idea-slider">
+            <div class="row">
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="resources/img/idea-bg-back.png" alt=""></div>
+                        <div class="swiper-slide"><img src="resources/img/idea-bg-front.png" alt=""></div>
+                        <div class="swiper-slide"><img src="resources/img/ideabg-right.png" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="theme">
+            <h4>Waxom Multipurpose WordPress Theme</h4>
+            <p>Don't Forget to Rate the Template. Thanks so much!</p>
+        </div>
+
+    </section>
+
+
+ <!-- */============/*
+Realization section ends here
+*/============/* -->
+
+<!-- latest projects section starts here -->
+<section class="portfolio-section" id="portfolio">
+    <div class="row">
+        <h2>Our Latest Projects</h2>
+        <p class="little-description">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.!</p>
     </div>
-    <div class="col span_1_of_4 box">
-     <img src="resources/img/dev.png" alt="development-icon">
-     <h3>Web & App Design</h3>
-     <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+    <div class="row">
+        <div class="portfolio-filter">
+            <button type="button" data-filter='all'>All</button>
+            <button type="button" data-filter='.web'>Web Design</button>
+            <button type="button" data-filter='.apps'> Mobile Apps</button>
+            <button type="button" data-filter='.icons'>Illustration</button>
+            <button type="button" data-filter='.icons'>Photography</button>
+        </div>
     </div>
-    <div class="col span_1_of_4 box">
-     <img src="resources/img/gears.png" alt="gear-icon">
-     <h3>Web & App Design</h3>
-     <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+    <div class="row container">
+        <div class="col span_1_of_3 mix apps box">
+            <img src="resources/img/lp-1.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+            <h4>Claritas Etiam Processus</h4>
+            <p>Photography, Nature</p>
+        </div>
+        <div class="col span_1_of_3 mix apps web box">
+            <img src="resources/img/lp-2.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+            <h4>Quam Nutamus Farum</h4>
+            <p>Graphic Design, Mock-Up</p>
+        </div>
+        <div class="col span_1_of_3 mix icons box">
+            <img src="resources/img/lp-3.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+            <h4>Usus Legentis Videntur</h4>
+            <p>Photography, Holiday</p>
+        </div>
+        <div class="col span_1_of_3 mix icons web apps box">
+            <img src="resources/img/lp-4.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+            <h4>Claritas Etiam Processus</h4>
+            <p>Photography, Nature</p>
+        </div>
+        <div class="col span_1_of_3 mix icons web apps box">
+            <img src="resources/img/lp-5.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+            <h4>Quam Nutamus Farum</h4>
+            <p>Graphic Design, Mock-Up</p>
+        </div>
+        <div class="col span_1_of_3 mix icons web apps box">
+            <img src="resources/img/lp-6.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+            <h4>Usus Legentis Videntur</h4>
+            <p>Photography, Holiday</p>
+        </div>
     </div>
-    <div class="col span_1_of_4 box">
-     <img src="resources/img/mkt.png" alt="marketing-icon">
-     <h3>Web & App Design</h3>
-     <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+    <div class="row">
+        <a href="" class="btn btn-load-more">Load More</a>
     </div>
-</div>
 </section>
 
 
-<!-- */============/*
-Service section ends here
-*/============/* -->
+
+
+
+<!-- latest projects section ends here -->
 
 
 
 
 
-
-
-
-
-
-
-<script src="resources/js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="resources/js/main.js"></script>
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
