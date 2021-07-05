@@ -282,3 +282,19 @@ header {
     text-align: center;
     color: #fff;
 }
+.para{
+ text-align: start;
+ margin-left: 0;
+ margin-top: 6rem;
+}
+
+/* .mobile-device ul li i{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    color: antiquewhite;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
