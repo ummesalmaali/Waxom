@@ -252,9 +252,14 @@ header {
     margin-left: 0;
 }
 .portfolio-section .btn-load-more{
+    display: inline-block;
+    line-height: 4.7rem;
+    margin-top: 2rem;
+    color: #fff;
     background: #998675;
     text-decoration: none;
-    padding: 4rem 2rem;
+    height: 4.7rem;
+    width: 16.7rem;
 }
 .portfolio-section .mixitup-control-active{
     background: #fff;
@@ -264,17 +269,15 @@ header {
     background: url(../img/video-pre-image.png);
     height: 85vh;
 }
-.my-icon{
-    width: 5rem;
+.video-icon{
+    font-size: 6rem;
 }
 .video-section .video-icon{
     padding-top: 20rem;
     color: #fff;
     text-align: center;
 }
-.video-icon i{
-    height: 5rem;
-}
+
 .video-section .video-presentation{
     text-align: center;
     color: #fff;

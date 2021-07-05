@@ -132,7 +132,7 @@ Realization section ends here
         <p class="little-description">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.!</p>
     </div>
     <div class="row">
-        <div class="portfolio-filter">
+        <div class="portfolio-filter ">
             <button type="button" data-filter='all'>All</button>
             <button type="button" data-filter='.web'>Web Design</button>
             <button type="button" data-filter='.apps'> Mobile Apps</button>
@@ -146,7 +146,7 @@ Realization section ends here
             <h4>Claritas Etiam Processus</h4>
             <p>Photography, Nature</p>
         </div>
-        <div class="col span_1_of_3 mix apps web box">
+        <div class="col span_1_of_3 mix web box">
             <img src="resources/img/lp-2.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
             <h4>Quam Nutamus Farum</h4>
             <p>Graphic Design, Mock-Up</p>
@@ -156,17 +156,17 @@ Realization section ends here
             <h4>Usus Legentis Videntur</h4>
             <p>Photography, Holiday</p>
         </div>
-        <div class="col span_1_of_3 mix icons web apps box">
+        <div class="col span_1_of_3 mix icons web box">
             <img src="resources/img/lp-4.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
             <h4>Claritas Etiam Processus</h4>
             <p>Photography, Nature</p>
         </div>
-        <div class="col span_1_of_3 mix icons web apps box">
+        <div class="col span_1_of_3 mix apps box">
             <img src="resources/img/lp-5.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
             <h4>Quam Nutamus Farum</h4>
             <p>Graphic Design, Mock-Up</p>
         </div>
-        <div class="col span_1_of_3 mix icons web apps box">
+        <div class="col span_1_of_3 mix apps box">
             <img src="resources/img/lp-6.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
             <h4>Usus Legentis Videntur</h4>
             <p>Photography, Holiday</p>
@@ -180,10 +180,23 @@ Realization section ends here
 <!-- Video projects section start here -->
 <section class="video-section">
     <div class="row">
-        <div class="video-icon"><i class="far fa-play-circle my-icon"></i></div>
+        <div class="video-icon"><i class="far fa-play-circle  my-icon"></i></div>
         <div class="video-presentation">
             <h2>Waxom Video Presentation</h2>
             <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
+        </div>
+    </div>
+</section>
+<section class="mobile-device">
+    <div class="row">
+        <div class="col span_1_of_2">
+            <img src="resources/img/mobile-device.png" alt="">
+        </div>
+    </div>
+        <div class="col span_1_of_2 para">
+            <h2>Excellent for Mobile Devices.</h2>
+            <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+
         </div>
     </div>
 </section>
@@ -191,7 +204,11 @@ Realization section ends here
 
 
 
-     <script src="vendors/js/mixitup.min.js"></script>
+
+
+
+
+    <script src="vendors/js/mixitup.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="resources/js/main.js"></script>
     <script>
@@ -210,6 +227,7 @@ Realization section ends here
                 prevEl: ".swiper-button-prev",
             },
         });
+        var mixer = mixitup('.container');
     </script>
 </body>
 
