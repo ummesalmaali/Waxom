@@ -103,6 +103,7 @@ header {
 .main-nav {
     float: right;
     margin-top: 4rem;
+   
 }
 
 .main-nav li {
@@ -298,3 +299,61 @@ header {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 } */
+.reviews{
+    text-align: center;
+    padding: 4rem;
+    background: #4d3327;
+    color: #fff;
+
+}
+.reviews p::after{
+    content: "";
+    display: block;
+    height: .4rem;
+    background: #fff;
+    width: 8.5rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+.recent-projects{
+    text-align: center;
+}
+.recent-projects a{
+    text-decoration: none;
+    color: #dfd3c4;
+}
+.recent-projects .arrow-icon{
+    color: #dfd3c4;
+    margin-left: .4rem;
+}
+.our-partners{
+    background: url(../img/BARBAR-BG.png);
+    background-size: cover;
+    height: 85vh;
+    background-repeat: no-repeat;
+    text-align: center;
+   padding-right: 2rem;
+}
+.footer{
+    background:#191919;
+    height: 50vh;
+    color: #fff;
+}
+.copyright{
+    background: #111111;
+    align-items: center;
+    color: #fff;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-between{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
