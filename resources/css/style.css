@@ -24,7 +24,7 @@ ul li {
     list-style-type: none;
 }
 section {
-    padding: 8rem 0;
+    padding: 4rem 0;
 }
 /* heading */
 h1 {
@@ -152,10 +152,58 @@ header {
     z-index: 9999;  
 }
 
-.sticky .mobile-menu span{
-    margin: 0;
-    line-height: 1;
-}
+/* Mobile Menu */
+.mobile-menu span{
+    color: #fff;
+    font-size: 4rem;
+    float: right;
+    margin-top: 2rem;
+    display: none;
+    }
+    .mobile-menu span:hover{
+        cursor: pointer;
+    }
+    .overlay{
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1;
+        overflow-x: hidden;
+        transition: .5s;
+    }
+    .overlay-content{
+        position: relative;
+        top: 10%;
+        width: 100%;
+        text-align: center;
+       
+    }
+    .overlay a{
+        text-decoration: none;
+        display: block;
+        font-size: 3rem;
+        text-transform: uppercase;
+        letter-spacing:.3rem;
+        color: #999;
+        padding: 1rem 0;
+    }
+    .overlay a:hover{
+    color: #fff;
+    }
+    .overlay .closebtn{
+        position: absolute;
+        top: 0;
+        right: 4.5rem;
+        font-size: 6rem;
+    }
+    
+    .sticky .mobile-menu span{
+        margin: 0;
+        line-height: 1;
+    }
 
 .hero-text-box {
     color: #fff;
@@ -344,9 +392,10 @@ header {
 .our-partners{
     background: url(../img/BARBAR-BG.png);
     background-size: cover;
-    height: 85vh;
+    
     background-repeat: no-repeat;
     text-align: center;
+    padding-top: 4rem;
 }
 .footer{
     padding-top: 5rem;
