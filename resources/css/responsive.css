@@ -7,8 +7,20 @@
     .mobile-menu span{
          display: block;
     }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+       font-size: 1rem;
+    }
+    p{
+        font-size: .8rem;
+    }
     header{
-        height: 55vh;
+        height: 70vh;
     }
     .row{
         margin: 0 15px;
@@ -68,23 +80,29 @@
 }
 @media only screen and (max-width:480px){
     header{
-        height: 75vh;
+        height: 70vh;
     }
-    .little-description{
+    /* .little-description{
         width: 100%;
         margin-left: 0;
-    }
+    } */
     h1{
-        font-size: 2rem;
-    }
-    h2{
-        font-size: 1.5rem;
-    }
-    h3{
         font-size: 1rem;
     }
-}
-.testimonial-section .col:nth-child(3),
-.testimonial-section .col:nth-child(4){
-margin-top: 4rem;
+    h2{
+        font-size: .8rem;
+    }
+    h3{
+        font-size: .6rem;
+    }
+    p{
+        font-size: .5rem;
+    }
+    .span_1_of_6{
+        width: 50%;
+    }
+    .copyright{
+        height: 100vh;
+        padding-top: 10rem;
+    }
 }
